@@ -1,4 +1,4 @@
-const filter = {
+const filters = {
     searchText: "",
     sortBy: "byEdited",
 };

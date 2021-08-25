@@ -33,6 +33,8 @@ const createNote = () => {
         updateAt: currentTimestamp,
     });
     saveNotes();
+
+    return id;
 };
 
 //remove a note from the list
@@ -100,6 +102,8 @@ const updateNote = (id, updates) => {
     }
 
     saveNotes();
+
+    return note;
 };
 
 notes = loadNotes();
